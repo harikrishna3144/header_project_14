@@ -1,0 +1,366 @@
+body{
+    margin:0px;
+}
+
+.main-container{
+    width:1400px;
+    height:890px;
+    background-color:#2F1893;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+width: 976px;
+
+}
+
+.header-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:976px;
+    height:40px;
+}
+
+.startup-container{
+    width:106px;
+    height:32pz;
+
+}
+.startup-heading{
+    text-align:center;
+    color:#ffffff;
+    font-family:"DM Sans";
+    font-weight:700;
+    font-size:24px;
+}
+
+.buttons-container{
+    width:503px;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.button{
+    height:26px;
+    background-color:transparent;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    font-family:"DM Sans";
+}
+
+.overview-btn{
+    width:80px;
+}
+
+.prices-btn{
+    width:53px;
+}
+
+.blog-btn{
+    width:36px;
+}
+
+.feedback-btn{
+    width:84px;
+}
+
+.purches-btn-container{
+    width:120px;
+    height:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:none;
+}
+.purches-btn{
+    width:79px;
+    height:26px;
+    background-color:#E93A7D;
+    border:none;
+    outline:none;
+    border-radius:100px;
+    color:#ffffff;
+    padding:5px 10px 5px 10px;
+
+}
+
+
+.bottom-container{
+    display:flex;
+
+    
+} 
+
+.text-container{
+    width:427px;
+    height:496px;
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+
+.generate-heading-container{
+    width:424px;
+    height:217px;
+}
+
+.generate-heading{
+    font-family:"DM Sans";
+    font-weight:700;
+    font-size:58px;
+    color:#ffffff;
+    padding-bottom:20px;
+}
+
+.description-container{
+    width:363px;
+    height:160px;
+}
+.page-description{
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:22px;
+    color:#ffffff;
+
+}
+
+
+
+.learn-more-container{
+    width:157px;
+    height:50px;
+    border-radius:100px;
+}
+
+.learn-more-btn{
+    width:96px;
+    height:26px;
+    background-color:#E93A7D;
+    border-radius:100px;
+    border:none;
+    outline:none;
+    font-size:18px;
+    color:#ffffff;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+    
+}
+
+
+
+
+
+.signup-form-container{
+    width:470px;
+    height:600px;
+    border:2px solid #EBEAED;
+    color:#ffffff;
+    margin-top:50px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-right: 30px;
+}
+
+.signup-now-container{
+    width:247px;
+    height:52px;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.signup-now-heading{
+    font-family:"DM Sans";
+    font-size:42px;
+    color:#1E0E62;
+    text-align:center;
+}
+
+
+.email-container{
+    width:330px;
+    height:50px;
+    border-radius:100px;
+    border:2px solid #EBEAED;
+    text-align:start;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:15px;
+    margin-top:20px;
+}
+
+.email-input{
+    width:88px;
+    height:26px;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:18px;
+    color:#151439;
+    border:none;
+    outline:none;
+}
+
+.password-container{
+    width:330px;
+    height:50px;
+    border-radius:100px;
+    border:2px solid #EBEAED;
+    text-align:start;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:15px;
+    margin-top:15px;
+}
+
+.password-input{
+    width:125px;
+    height:26px;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:18px;
+    color:#151439;
+    border:none;
+    outline:none;
+}
+
+
+.checkbox-container{
+    width:265px;
+    height:26.4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    margin-top:15px;
+}
+
+.checkbox-input{
+    width:24px;
+    height:24px;
+    border-radius:#25DAC5;
+
+}
+
+.checkbox-description{
+    width:228px;
+    height:26px;
+    font-family:"Roboto";
+    font-weight:400;
+    size:16px;
+    color:#151439;
+}
+
+.signin-container{
+    width:330px;
+    height:50px;
+    margin-top:15px;
+    border-radius:100px;
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+    background-color:#482BE7;
+}
+
+.signin-button{
+    width:76px;
+    height:26px;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:18px;
+    border:none;
+    text-align:center;
+    background-color:transparent;
+    color:#ffffff;
+
+}
+
+.or-divider{
+    color:#151439;
+    font-family:"DM Sans";
+    font-size:26px;
+    text-align:center;
+}
+
+.divider-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.hr-line{
+    width:141.57px;
+    height:2px;
+    border:2px solid #EBEAED;
+}
+
+.scoial-buttons-container{
+    width:330px;
+    height:50px;
+    border-radius:100px;
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+    background-color:#1DA1F2;
+
+}
+
+.scoial-button{
+    width:138px;
+    height:26px;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:18px;
+    border:none;
+    text-align:center;
+    background-color:transparent;
+    color:#ffffff;
+}
+.account-container{
+    width:290px;
+    height:28px;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-size:18px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    margin-top:15px;
+    
+}
+
+.text-article{
+    color:#151439;
+    padding-right:5px;
+}
+.sign-in-article{
+    color:#25DAC5;
+}
